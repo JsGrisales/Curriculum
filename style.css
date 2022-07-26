@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.container_principal {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size:17px;
+    background-color: #bb9cec7e;
+}
+.aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width:500px;
+    background-color: #392E5C;
+    color: white;
+    -webkit-box-shadow: 8px 8px 2px 0px #000000;
+box-shadow: 8px 8px 2px 0px #000000;
+}
+
+h1 {
+    color: #392E5C;
+    font-size: 45px;
+}
+.container_redes{
+
+}
+ul.lista_redes {
+    width: 200px;
+    height: 35px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+.img{
+    background-image: url(.//assets/fondo.jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 65px;
+    border-radius: 50%;
+}
+
+.section {
+    padding-left: 20px;
+    width: 100%;
+}
