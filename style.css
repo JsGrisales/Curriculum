@@ -13,15 +13,20 @@ body {
 .aside {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding-left: 20px;
     margin-top: 20px;
     margin-left: 20px;
-    width:500px;
+    width:25%;
     background-color: #392E5C;
     color: white;
     -webkit-box-shadow: 8px 8px 2px 0px #000000;
 box-shadow: 8px 8px 2px 0px #000000;
+}
+.section {
+    padding-left: 20px;
+    width:75%;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -29,6 +34,7 @@ h1 {
     font-size: 45px;
 }
 .container_redes{
+    width: 100%;
 
 }
 ul.lista_redes {
@@ -43,6 +49,8 @@ ul.lista_redes {
 
 
 .img{
+    display: flex;
+    justify-content: center;
     background-image: url(.//assets/fondo.jpg);
     width: 200px;
     height: 200px;
@@ -52,7 +60,3 @@ ul.lista_redes {
     border-radius: 50%;
 }
 
-.section {
-    padding-left: 20px;
-    width: 100%;
-}
